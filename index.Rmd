@@ -1,0 +1,21 @@
+---
+site: bookdown::bookdown_site
+documentclass: book
+output: bookdown::gitbook
+---
+
+```{r include = FALSE}
+library(htmltools)
+
+insert_page <- function(url) {
+  div(style="height:1400px",
+    tags$iframe(
+      src = url,
+      width="100%",
+      height="100%",
+      frameBorder="0"
+    )
+  )
+}
+```
+

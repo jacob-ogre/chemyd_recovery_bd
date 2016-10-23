@@ -1,0 +1,17 @@
+# Cover
+
+```{r echo=FALSE}
+insert_page('https://docs.google.com/document/d/18vzLp9Xs6wtuPHWPfJBDKOjZcdNoNH6qk38E177LQKE/pub?embedded=true')
+
+# div(style="height:1080px",
+#   tags$iframe(
+#     src = 'https://docs.google.com/document/d/18vzLp9Xs6wtuPHWPfJBDKOjZcdNoNH6qk38E177LQKE/pub?embedded=true',
+#     width="100%",
+#     height="100%",
+#     frameBorder="0"
+#   )
+# )
+```
+
+_Dynamic Recovery Plans_
+
